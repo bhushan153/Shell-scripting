@@ -1,0 +1,12 @@
+#!/bin/bash
+# this script to show how to use variables
+age=22
+name=Bhushan
+echo "My name is $name and my age is $age"
+# we can use simillar variables i.e
+name=Prashant
+echo "My name is $name"
+
+#  variables to store output of command
+HOSTNAME=($hostname)
+echo "the hostname of my machine is $HOSTNAME"
