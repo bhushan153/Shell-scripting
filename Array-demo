@@ -1,0 +1,4 @@
+#!/bin/bash
+myarray=( 1 20 30.5 Hello "hi friend" )
+echo "The value in 3rd position in arry is ${myarray[3]}"
+# it will give "hello" word because array  index start from 0
