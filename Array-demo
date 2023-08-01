@@ -2,3 +2,16 @@
 myarray=( 1 20 30.5 Hello "hi friend" )
 echo "The value in 3rd position in arry is ${myarray[3]}"
 # it will give "hello" word because array  index start from 0
+# we want all values
+echo "All values are ${myarray[*]}"
+
+## to get leangth of array
+echo "Leangth of array is ${#myarray[*]}"
+
+## suppose we want 2-4 index value 
+echo "give me vales range 2-3 ${myarray[*]:2:2}"
+
+
+###  Update array with new values
+myarray+=( 10 30 40 )
+echo "The array values are ${myarray[*]}"
