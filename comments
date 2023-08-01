@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "This files shows us comments related info"
+#  This is one type of comment we can use # for comment
+echo "another way"
+<<comment
+  this is first line
+  this is second line
+  this is third line
+comment
