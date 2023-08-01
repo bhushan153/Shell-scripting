@@ -1,0 +1,6 @@
+#!/bin/bash
+declare -A myarray
+myarray=( [name]=Bhushan [age]=22 [city]=pune [profession]=Devops-Engineer )
+echo "my name is ${myarray[name]}"
+echo "And my age is ${myarray[age]}"
+
