@@ -1,0 +1,8 @@
+#!/bin/bash
+# suppose we want to constatnt any variable that time we can use this
+readonly name=Bhushan
+echo "My name is $name"
+# we can test this
+name=Sahil
+echo "My name is $name"
+#  it will give error
