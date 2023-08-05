@@ -1,0 +1,22 @@
+#!/bin/bash
+
+myvar="Hello Friends, How are you Alll?"
+lengthofmyvar=${#myvar}
+echo "the leangth of my var line is $lengthofmyvar"
+
+## or we can also do this
+echo the length of myvar line is  ${#myvar}"
+
+
+### co convert into Upper and Lowercase 
+echo "the line is in upper case is   ${myvar^^}"
+echo "the line is in lower case is ${myvar,,}"
+
+
+### To replace any word 
+newvar=${myvar/Friends/Dosto}
+echo "The new var is-------- ${newvar}"
+
+### slice Or to take out any word from line 
+## supose i want "Friends" from myvar line for that we want index of this word and index start from 0 and our word index is 6 and next we have to put length of this word i.e 7 
+echo "the slice word is -----   ${myvar:6:7}"
