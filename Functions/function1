@@ -1,0 +1,8 @@
+#!/bin/bash
+function myfun {
+   echo "Welcome $1"
+    echo "Welcome $1"
+}
+
+myfun Ram 20
+myfun jay 10
