@@ -1,6 +1,15 @@
 #!/bin/bash
+##   using while loop
 while true
 do
   echo "hi all"
+  sleep 2s
+done
+
+
+### using for loop
+for (( ;; ))
+do 
+  echo "hii all"
   sleep 2s
 done
