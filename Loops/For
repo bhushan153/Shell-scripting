@@ -1,0 +1,39 @@
+#!/bin/bash
+for i in 1 2 3 4 5 6 7 8 9 10
+do 
+  echo " Number is $i"
+done
+
+###  next apporoch
+
+for name in raju sham ram 
+do 
+  echo "Name is $name"
+done
+
+###   next
+
+for i in {1..10}
+do
+  echo " Nubmer is $i"
+done
+
+
+####  for with file
+
+FILE="/home/ubuntu/name.txt"
+for name in $(cat $FILE)
+do
+  echo "Name is $name"
+done
+
+
+####  for with Arrays
+
+myArray=( 1 2 3 hello Hi )
+length=${#myArray[*]}
+for ( i=0;i<$length;i++)
+do 
+   echo "value of myarray is ${myArray[$i]}"
+done
+
