@@ -1,0 +1,25 @@
+Block of code which perform some task.
+we can use this functions number of times in our code for the repetative tasks.
+
+
+  1)
+  #!/bin/bash       ###  function creating
+ function myfun {
+    echo "hi"
+ }
+
+myfun      # function calling
+myfun
+myfun
+
+
+2)
+#!/bin/bash     ###  function creating
+  myfun() {
+  echo "hi"
+}
+myfun     #  function calling
+myfun
+myfun
+
+
