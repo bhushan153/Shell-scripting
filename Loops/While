@@ -7,3 +7,18 @@ do
    echo "Value of count veriable is $count"
    let count++
 done
+#### using test file
+
+while read myvar
+do
+   echo "$myvar"
+done < /home/ubuntu/name.txt
+
+###   read content from csv file
+
+while IFS=',' read id name age
+do
+  echo "ID is $id"
+  echo "Name is $name"
+  echo "age is $age"
+done < test.csv
